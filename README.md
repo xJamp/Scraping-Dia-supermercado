@@ -24,32 +24,32 @@
 from Dia import Dia
 Object = Dia()
 ```
-# `1. Tiendas`
+## `1. Tiendas`
 - Parametros
 - - estado: bool - opcional - Nos permite filtrar entre tiendas activas e inactivas
 
 ```sh
 Object.tiendas()
 ```
-# `2. Recetas`
+## `2. Recetas`
 - No recibe parametros
 
 ```sh
 Object.recetas()
 ```
-# `3. Promociones`
+## `3. Promociones`
 - No recibe parametros
 
 ```sh
 Object.promociones()
 ```
-# `4. Medios de pago`
+## `4. Medios de pago`
 - No recibe parametros
 
 ```sh
 Object.medios_de_pago()
 ```
-# `5. Productos`
+## `5. Productos`
 - Parametros
 - - categoria: string - obligatorio - de esta categorias se obtendran todos los productos
 - - subcategoria: string - opcional - podemos filtrar por subcategoria
@@ -59,20 +59,20 @@ Object.medios_de_pago()
 ```sh
 Object.subcategorias(categoria = 'almacen', subcategoria = 'arroz-y-legumbres', producto = 'arroz-integral')
 ```
-# `6. Producto por ID`
+## `6. Producto por ID`
 - Parametros
 - - ID: string/tuple/list - obligatorio - de este ID se obtendra la información. pueden haber muchas ID en items de una lista/tupla o una ID en un string.
 
 ```sh
 Object.producto_by_id(ID = '272632')
 ```
-# `7. Categorias`
+## `7. Categorias`
 - No recibe parametros
 
 ```sh
 Object.categorias()
 ```
-# `8. Subcategorias`
+## `8. Subcategorias`
 - Parametros
 - - categoria: string - obligatorio - de esta categorias se obtendran todas las subcategorias
 
