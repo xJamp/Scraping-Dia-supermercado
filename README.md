@@ -28,7 +28,7 @@ Object = Dia()
 - Parametros
 - - estado: bool - opcional - Nos permite filtrar entre tiendas activas e inactivas
 
-```sh
+```bash
 Object.tiendas()
 ```
 ## `2. Recetas`
